@@ -1,0 +1,472 @@
+/*
+Design by mr Imal hasaranga Perera
+sri Lanka
+*/
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+    color: #06639e;
+    text-decoration:underline;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+*
+{
+    border: 0;
+    margin: 0;
+}
+
+body
+{
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #000000;
+    line-height: 20px;
+  /*  background: #7dbfd7 url(images/bg.jpg); */
+  
+    background-repeat:repeat-x;
+    background-position: top;
+}
+
+#mainbg{
+	
+    width: 1016px;
+    margin-left: auto;
+	margin-right:auto;
+	margin-top:50px;
+}
+
+#main{
+    margin: 0 auto;
+    width: 1016px;
+    padding-top: 10px;
+}
+
+#header{
+   background: url(images/mainpid.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+}
+
+#logo{
+    width: 1016px;
+    margin: 0 auto;
+    
+    
+    height: 270px;
+	
+}
+
+
+#buttons{
+    width: 1016px;
+    height: 57px;
+    margin: 0 auto;
+    padding-top: 5px;
+    background: url(images/titlemenu.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#buttons ul {
+    padding-left: 0px;
+}
+
+#buttons li {
+    display: inline;
+}
+
+#buttons a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    float: left;
+    width: 168px;
+    height: 37px;
+    padding-top: 19px;
+    margin-top: 1px;
+}
+
+#buttons a:hover, .active{
+   background: url(images/menu_h.png);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#content{
+
+}
+
+#left{
+    width:249px;
+    padding-left: 1px;
+    float: left;
+}
+
+#left h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color: #ffffff;
+	font-size: 16px;
+	text-align:center;
+	height: 27px;
+	padding-top: 10px;
+	background: url(images/title_left.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+#left .company{
+    padding-top: 10px;
+}
+
+.numleft{
+    background: url(images/numbg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    float:left;
+    width: 37px;
+    min-height: 37px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 8px 0px 8px;
+}
+
+.numleft p{
+    padding-top: 10px;
+}
+
+.newsright{
+    padding-left: 53px;
+    padding-right: 10px;
+}
+
+#left .read a{
+    color: #06639e;
+    font-weight:normal;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration:none;
+    border-bottom: 1px dotted #06639e;
+    margin-right: 10px;
+}
+
+.left_grad{
+    background: url(images/left_grad.png) no-repeat;
+    background-position: top left;
+    min-height: 200px;
+}
+
+.left_bg{
+    background: url(images/left_bg.png) repeat-y;
+    background-position:left;
+}
+.left_bg1{
+    background: url(images/left_bg.png) repeat-y;
+    background-position:left;
+}
+.left_bot{
+    background: url(images/left_bot.png) repeat-y;
+    background-position:left top;
+    height: 5px;
+    margin-bottom: 10px;
+}
+
+#center{
+    width: 747px;
+    padding-left: 10px;
+    float: left;
+}
+
+#center p{
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.text{
+    padding: 10px;
+	padding-bottom:0px;
+    background: #ffffff url(images/text_bg.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    min-height: 64px;
+}
+
+
+#center H1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    color: #00456e;
+    font-size: 16px;
+    height: 36px;
+    width: 537px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: url(images/title_center.png);
+    background-repeat:no-repeat;
+    background-position: top;
+}
+
+.read{
+    text-align: right;
+    padding-bottom:5px;
+    padding-right: 5px;
+}
+
+#center .read{
+    height: 26px;
+    padding-top: 3px;
+    background: url(images/read.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#center .read1{
+    height: 12px;
+    padding-top: 3px;
+    background: url(images/read1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#center .read a{
+    color: #ffffff;
+    font-weight:normal;
+    font-style: italic;
+    font-size: 12px;
+    padding-right: 15px;
+    text-decoration:none;
+
+}
+
+#mobile{
+	
+	 height:50px;
+    
+    background: url(images/mobile.png);
+    background-repeat: no-repeat;
+    background-position: top;
+	text-align: center;
+    padding-top:10px;
+	
+	
+
+	
+	}
+#mobile a{
+	color:#FFF;
+    font-weight:normal;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration:none;
+    border-bottom: 1px dotted #06639e;
+    	
+	
+	}
+#mobile a:hover{
+	text-decoration:underline;
+	color: #FFF;
+	
+	}
+
+.read a:hover{
+    text-decoration:underline;
+}
+
+#right{
+    width:198px;
+    padding-right: 1px;
+    float:right;
+}
+
+#right h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    color: #ffffff;
+    font-size: 16px;
+    text-align:center;
+    height: 27px;
+    padding-top: 10px;
+    background: url(images/title_right.png);
+    background-repeat:no-repeat;
+    background-position:top left;
+}
+
+.right_grad{
+    background: url(images/right_grad.png) no-repeat;
+    background-position: top left;
+    
+}
+
+.right_bg{
+    background: url(images/right_bg.png) repeat-y;
+    background-position:left;
+}
+
+.right_bot{
+    background: url(images/right_bot.png) repeat-y;
+    background-position:left top;
+    height: 4px;
+    margin-bottom: 10px;
+}
+
+.categories{
+
+}
+
+.categories a{
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+.categories ul{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.categories ul li{
+    list-style: none;
+    padding: 3px 5px 3px 5px;
+    border-bottom: 1px dotted #979797;
+}
+
+.recent a{
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+.recent ul{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.recent ul li{
+    list-style: none;
+    padding: 3px 5px 3px 13px;
+    background: url(images/ls1.png);
+    background-repeat: no-repeat;
+    background-position: 0px 11px;
+}
+
+#footer
+{
+    height: 40px;
+    font-size: 14px;
+    color: #FFF;
+	font-style:italic;
+    padding-top: 10px;
+    text-align: center;
+    clear:both;
+    background: url(images/footer1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 1px;
+    padding-bottom: 5px;
+}
+
+#footer a{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.padding{
+    padding: 10px;
+    color:#FF0000;
+    font-weight: bold;
+}
+
+#great{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	text-align:center;
+	
+	}
+#great1{
+	font-size:14px; 
+	text-align:justify;
+		margin-top:1px;;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	}
+	
+
+#gallery{
+	width:1015px;
+	height:250px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	float:right;
+	position:relative;
+	z-index:200;
+}
+#gallery a {
+		float:left;
+		position:absolute;
+		z-index:100;
+		
+	}
+	
+	#gallery a img {
+		border:none;
+	}
+	
+	#gallery a.show {
+		z-index:500
+	}
+
+	#gallery .caption {
+	z-index:600;
+	height:25px;
+	width:100%;
+	position:fixed;
+	bottom:1;
+	}
+
+	#gallery .caption .content {
+		margin:5px
+	}
+	
+	#gallery .caption .content h3 {
+		margin:0;
+		padding:0;
+		color:#1DCCEF;
+	}
+	
+	#titleofthepage{
+	float:left;
+	position:absolute;
+	width:600px;
+	min-height:100px;
+	
+	vertical-align:middle;
+	left:207px;
+	top:100px;
+	visibility: visible;
+		z-index:1000;
+		
+		}
+#titleofthepage h1{
+	text-align:center;
+	font-size:36px;
+	color:white;
+	
+	}
